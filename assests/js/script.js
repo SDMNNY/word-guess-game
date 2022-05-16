@@ -5,7 +5,9 @@ var startbutton = document.querySelector("#start");
 
 //(state)
 // - wordbank
-var wordBank = ["function", "javascript", "document"]
+var chosenWord = "";
+var numBlanks = 0;
+
 
 // - the current word 
 
@@ -13,19 +15,28 @@ var wordBank = ["function", "javascript", "document"]
 
 //(functions)
 function startGame() {
-    console.log("The game is starting.")
+    
     // - start game 
     // timer reset 
     startTimer();
-    console.log("game is starting")
+    
     //pick a word form the wordbank
     // generate an unguessed word
     // render the unguessed word 
 }
 
 function startTimer () {
+    var timeLeft = 10;
+    var timerInterval = setInterval (function )
 
 }
+
+
+function checkWin() {
+
+
+}
+
 
 function pickRandomWord() { 
 
